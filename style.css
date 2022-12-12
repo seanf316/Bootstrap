@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.alert-container {}
+
+.callout-container {
+    height: 100vh;
+    background: url('assets/images/whiskey-background.jpeg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.opaque-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.quotes-container {}
+
+.features-container {}
+
+/* Block Dividers */
+.block-divider {
+    width: 30rem;
+    height: 5px;
+    border: 0;
+    background-color: #ce4f6e;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron-header {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+
+.jumbotron .lead {
+    margin: 25px 0;
+    color: #a7a7a7;
+}
+
+.jumbotron small {
+    font-size: 60%;
+    font-style: italic;
+    color: lightgray;
+}
+
+/* Buttons */
+
+.btn--cta {
+    font-weight: bold;
+    border-radius: 23px;
+    width: 10rem;
+}
+
+.btn--red {
+    color: white;
+    background-color: #f05f40;
+    border: 3px solid white;
+}
+
+.btn--red:hover,
+.btn--red:active,
+.btn--red:focus,
+.btn--red:active:focus {
+    color: #f05f40;
+    background-color: white;
+    border: 3px solid #f05f40;
+}
